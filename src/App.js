@@ -6,9 +6,9 @@ import "./index.css";
 
 const App = () => {
   const initialProducts = [
-    { id: 1, name: "Product 1", price: 10,img:"https://m.media-amazon.com/images/I/61AHiYyu3ZL._AC_UL320_.jpg" },
-    { id: 2, name: "Product 2", price: 15,img:"https://m.media-amazon.com/images/I/71EOXuLV1WL._AC_UL320_.jpg" },
-    { id: 3, name: "Product 3", price: 20,img:"https://m.media-amazon.com/images/I/91DLEpPrCNL._AC_UL320_.jpg" },
+    { id: 1, name: "Product 1", price: 10,img:"https://5.imimg.com/data5/KK/CR/MY-5458350/kids-school-bag.jpg" },
+    { id: 2, name: "Product 2", price: 15,img:"https://3.imimg.com/data3/XT/QF/MY-3512983/kids-school-bag.jpg" },
+    { id: 3, name: "Product 3", price: 20,img:"https://5.imimg.com/data5/OS/WR/MY-48692934/girls-college-bag.jpg" },
   ];
 
   const [cart, setCart] = useState([]);
